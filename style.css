@@ -83,7 +83,7 @@ nav {
 }
 
 nav a {
-  display: inline-block;
+  float: right;
   padding-left: 15px;
   margin-left: 15px;
   line-height: 18px;
@@ -214,4 +214,74 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+}
+
+// I am not to sure where I keep going wrong where I can't get the words everything to show centered on the nav bar.
+
+@media screen and (max-width: 640px){
+  #masthead {
+    position: static;
+    background: #000;
+    z-index: 99;
+    width: 100%;
+    margin: 0 0 30px;
+    overflow: auto;
+    border-bottom: 2px solid #cccccc;
+  }
+
+  nav a {
+    float: left;
+    margin-bottom: 15px;
+    border-left: 1px solid #efefef;
+    display: block;
+
+
+  }
+
+  #logo {
+    width: 100%;
+
+  }
+
+  #main-container{
+    width: 100%
+  }
+
+}
+
+@media screen and (max-width: 768px){
+
+  #logo {
+
+
+  }
+
+  #main-container{
+    width: 100%
+  }
+
+  nav a {
+    float: left;
+    display: block;
+    border-left: 1px solid #efefef;
+
+
+  }
+}
+
+@media screen and (max-width: 980px){
+
+  nav a {
+    float: left;
+    margin-right: 50px
+    border-left: 1px solid #efefef;
+
+  }
+
+  #main-container{
+
+    overflow: auto;
+  }
+
+
 }
