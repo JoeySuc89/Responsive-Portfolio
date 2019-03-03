@@ -215,7 +215,7 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
-
+  /*I couldn't seem to figure out the proper way to have the nav line up directly underneath the logo on my small screen*/
 
 @media screen and (max-width: 640px){
   #masthead {
