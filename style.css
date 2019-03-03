@@ -3,7 +3,7 @@ body {
   font-size: 18px;
   line-height: 34px;
   color: #777777;
-  background: url("../images/concrete_seamless.png");
+  background: url("images/concrete_seamless.png");
 }
 
 * {
@@ -216,7 +216,6 @@ input[type=submit] {
   border: 0 none;
 }
 
-// I am not to sure where I keep going wrong where I can't get the words everything to show centered on the nav bar.
 
 @media screen and (max-width: 640px){
   #masthead {
